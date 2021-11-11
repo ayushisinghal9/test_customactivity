@@ -158,7 +158,7 @@ exports.execute = function (req, res) {
       'recipients': [
         '+15092408753'
     ],
-      'body': 'This is a test message'
+      'body': 'message from messaging bird'
     };
 
     messagebird.messages.create(params, function (err, response) {
