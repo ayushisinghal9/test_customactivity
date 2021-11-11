@@ -147,18 +147,18 @@ exports.execute = function (req, res) {
     //to save in data extension
     */
     
-    //-----------------------------------------Message bird
+    //-----------------------------------------Message bird    Fjrzmdjr7r40SlclvZvG0ze85
 
 
   
-    var messagebird = require('messagebird')('Fjrzmdjr7r40SlclvZvG0ze85');
+    var messagebird = require('messagebird')('MIXOiB4vTWR3AaZZM0kvgZhLw');
 
     var params = {
       'originator': 'TestMessage',
       'recipients': [
         '+15092408753'
     ],
-      'body': 'message from messaging bird'
+      'body': 'This is a test message'
     };
 
     messagebird.messages.create(params, function (err, response) {
