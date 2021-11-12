@@ -151,10 +151,11 @@ exports.execute = function (req, res) {
 
 
   
-    var messagebird = require('messagebird')('Fjrzmdjr7r40SlclvZvG0ze85');
+    var messagebird = require('messagebird')('DTJAZvWNNWqcqfbazzbRc3gV2');
 
     var params = {
       'originator': 'TestMessage',
+      //'access_key':'MIXOiB4vTWR3AaZZM0kvgZhLw',
       'recipients': [
         '+15092408753'
     ],
