@@ -151,7 +151,7 @@ exports.execute = function (req, res) {
 
 
   
-    var messagebird = require('messagebird')('MIXOiB4vTWR3AaZZM0kvgZhLw');
+    var messagebird = require('messagebird')('Fjrzmdjr7r40SlclvZvG0ze85');
 
     var params = {
       'originator': 'TestMessage',
